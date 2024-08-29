@@ -18,15 +18,15 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
-public class BaseSetupJava {
+public class BaseSetup {
     //make a logger vaiable to be able to log the initialization process
-    public static final Logger LOGGER = LogManager.getLogger(BaseSetupJava.class);
+    public static final Logger LOGGER = LogManager.getLogger(BaseSetup.class);
     //make an instantiated variable of driver
     private static WebDriver driver;
     //make a variable to get access to properties library and use config file
     private Properties properties;
 
-    public BaseSetupJava() {
+    public BaseSetup() {
         try {
             String configFilePath = System.getProperty("user.dir") +
                     "/src/test/resources/configs/dev-config.properties";
