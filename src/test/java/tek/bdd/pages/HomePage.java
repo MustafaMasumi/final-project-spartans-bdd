@@ -1,8 +1,8 @@
 package tek.bdd.pages;
 
 import org.openqa.selenium.By;
-import tek.bdd.steps.SeleniumUtility;
+import tek.bdd.steps.CreateAccount;
 
-public class HomePage extends SeleniumUtility {
-    public static final By CREATE_PRIMARY_ACCOUNT = By.linkText("")
+public class HomePage extends CreateAccount {
+    public static final By CREATE_PRIMARY_ACCOUNT = By.linkText(
 }

@@ -1,4 +1,4 @@
 package tek.bdd.steps;
 
-public class Accounts {
+public class HooksSteps {
 }
