@@ -1,9 +1,9 @@
 package tek.bdd.pages;
 
 import org.openqa.selenium.By;
-import tek.bdd.steps.CreateAccount;
+import tek.bdd.utility.SeleniumUtilities;
 
-public class AdminDashboardPage extends CreateAccount {
+public class AdminDashboardPage extends SeleniumUtilities {
 
-    public static final By home page title = By.xpath(*[@id="root"]/div/div[1]/div/h2);
+    public static final By TITLE_Text = By.xpath("//div[contains(@class,'header')]/a/following-sibling::h2");
 }
